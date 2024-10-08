@@ -76,3 +76,8 @@ h = 1e-12 # Step size
 solution_scipy_method = newton_krylov(func, x0, rdiff=h)
 solution_repo_method  = newton_krylov_csa(func, x0, rdiff=h)
 ```
+
+## Dependencies
+
+* [NumPy](https://numpy.org/)
+* [SciPy](https://scipy.org/) (Only for the Newton Krylov method)
